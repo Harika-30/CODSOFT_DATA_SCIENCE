@@ -4,3 +4,6 @@ The Titanic Survival Prediction project is a well-known beginner's exercise in m
 
 ## TASK-2: MOVIE RATING PREDICTION WITH PYTHON
 The Movie Rating Prediction project involves building a model to predict movie ratings based on features like genre, director, and actors. It includes steps such as data exploration, handling missing values, and encoding categorical variables. The process uses regression techniques to train the model and evaluate its performance through metrics like Mean Squared Error and R-squared. This project helps in understanding data preprocessing, feature engineering, and the impact of various factors on movie ratings.
+
+## TASK-4: SALES PREDICTION USING PYTHON
+The Sales Prediction project involves building a model to predict future sales based on features such as quantity sold, price, and discounts. It includes steps like data exploration, handling missing values, and encoding categorical variables. The process uses regression techniques to train the model and evaluate its performance through metrics like Mean Squared Error, R-squared, and Mean Absolute Error. This project helps in understanding data preprocessing, feature engineering, and the factors influencing sales.
