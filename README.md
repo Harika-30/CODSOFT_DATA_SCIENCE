@@ -1,3 +1,6 @@
 # CODSOFT_DATA_SCIENCE
 ## TASK-1: TITANIC SURVIVAL PREDICTION
 The Titanic Survival Prediction project is a well-known beginner's exercise in machine learning. It involves using data about passengers, such as age, gender, and ticket class, to predict whether they survived the Titanic disaster. The process includes exploring and cleaning the data, handling missing values, and converting categorical data into numerical format. Different machine learning models, like K-Nearest Neighbour (KNN), Decision Trees, and Support Vector Machines (SVM), are then trained on the data. The models are evaluated to determine which one best predicts survival. This project helps to understand data preprocessing, feature engineering, and model evaluation.
+
+## TASK-2: MOVIE RATING PREDICTION WITH PYTHON
+The Movie Rating Prediction project involves building a model to predict movie ratings based on features like genre, director, and actors. It includes steps such as data exploration, handling missing values, and encoding categorical variables. The process uses regression techniques to train the model and evaluate its performance through metrics like Mean Squared Error and R-squared. This project helps in understanding data preprocessing, feature engineering, and the impact of various factors on movie ratings.
