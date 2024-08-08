@@ -1,0 +1,39 @@
+IMPORT LIBRARIES: 
+Import all necessary libraries.
+
+LOAD DATA: 
+Load the Titanic dataset from a CSV file.
+
+EXPLORATORY DATA ANALYTICS:
+Display the first few rows of the dataset.
+Get basic information about the dataset.
+Display summary statistics.
+Check for missing values.
+Visualize the distribution of numerical features.
+Visualize the count of movies by genre and director.
+Visualize the relationship between Rating and other numerical features.
+Display the number of missing values per column.
+Visualize missing values.
+
+DATA PREPROCESSING:
+Fill missing Rating values with the median rating.
+Drop rows with missing values in other columns.
+Verify no missing values remain.
+Encode categorical variables.
+Prepare features and target variable.
+Standardize the features.
+Split the data into training and testing sets.
+Check for any remaining missing values in the split data.
+
+BUILDING AND TRAINING MODEL:
+Train the K-Nearest Neighbour model.
+Train the Decision Tree model.
+Train the Support Vector Machine model.
+
+EVALUATING MODEL:
+Make predictions and calculate the training and testing accuracy for the K-Nearest Neighbour model.
+Make predictions and calculate the training and testing accuracy for the Decision Tree model.
+Make predictions and calculate the training and testing accuracy for the Support Vector Machine model.
+
+ADDITIONAL VISUALIZATIONS:
+Visualize feature importance for Decision Tree model.
