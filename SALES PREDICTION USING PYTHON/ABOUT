@@ -1,0 +1,46 @@
+IMPORT LIBRARIES: 
+Import all necessary libraries including pandas, numpy, matplotlib, seaborn, and scikit-learn.
+
+LOAD DATA: 
+Load the sales dataset from a CSV file into a pandas DataFrame.
+
+EXPLORATORY DATA ANALYTICS:
+•	Display the first few rows of the dataset.
+•	Get basic information about the dataset.
+•	Display summary statistics of numerical features.
+•	Check for missing values in each column.
+•	Visualize the distribution of sales values using a histogram.
+•	Visualize the distribution of numerical features with boxplots.
+•	Visualize the correlation matrix of numerical features.
+•	Plot pairwise relationships between numerical features.
+•	If a 'Date' column exists, visualize sales trends over time.
+•	If a 'Category' column exists, visualize the distribution of sales by category.
+•	Display the number of missing values per column after visualization.
+•	Visualize missing values using a heatmap.
+
+DATA PREPROCESSING:
+•	Fill missing sales values with the median of the sales column.
+•	Drop rows with missing values in other columns.
+•	Verify no remaining missing values are present after preprocessing.
+•	Encode categorical variables using one-hot encoding.
+•	Prepare features (X) and the target variable (y).
+•	Standardize features using StandardScaler.
+•	Split the data into training and testing sets.
+•	Ensure no remaining missing values in the split data.
+
+BUILDING AND TRAINING MODEL:
+•	Train a Linear Regression model on the training data.
+•	Fit the model and make predictions on the test data.
+
+EVALUATING MODEL:
+•	Calculate performance metrics such as Mean Squared Error (MSE) and Mean Absolute Error (MAE).
+•	Assess model accuracy with R-squared.
+•	Optionally, perform cross-validation to ensure robustness.
+
+SAVE AND LOAD MODEL:
+•	Save the trained model using joblib.
+•	Load the saved model for future use.
+
+ADDITIONAL VISUALIZATIONS:
+•	Plot predicted sales versus actual sales.
+•	Visualize feature importance using model coefficients.
