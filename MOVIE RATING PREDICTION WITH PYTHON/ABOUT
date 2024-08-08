@@ -1,0 +1,37 @@
+IMPORT LIBRARIES: 
+Import all necessary libraries including pandas, matplotlib, seaborn, and scikit-learn.
+
+LOAD DATA: 
+Load the movie dataset from a CSV file.
+
+EXPLORATORY DATA ANALYTICS:
+Display the first few rows of the dataset.
+Get basic information about the dataset.
+Display summary statistics.
+Check for missing values.
+Visualize the distribution of movie ratings.
+Visualize the distribution of other numerical features like duration.
+Visualize the count of movies by genre, director, and actors.
+Display the number of missing values per column.
+Visualize missing values.
+
+DATA PREPROCESSING:
+Fill missing rating values with the median rating.
+Convert duration and other numerical features to appropriate formats.
+Handle missing values in categorical columns by filling or encoding.
+Encode categorical variables like genre, director, and actors.
+Prepare features and target variable for modeling.
+Split the data into training and testing sets.
+Ensure no remaining missing values in the split data.
+
+BUILDING AND TRAINING MODEL:
+Train the Linear Regression model.
+Optionally, train other regression models like Decision Trees or Support Vector Machines.
+
+EVALUATING MODEL:
+Make predictions and calculate the Mean Squared Error (MSE) and R-squared for the model.
+Perform cross-validation to assess the model's robustness.
+
+ADDITIONAL VISUALIZATIONS:
+Visualize the correlation matrix of features.
+Plot true ratings versus predicted ratings to evaluate model performance.
